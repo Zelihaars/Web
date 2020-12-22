@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Grup Selectors</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <div>
+       <p class="p1">.container> paragraf1</p>
+       <p class="p2">.container> paragraf2</p>
+   </div>
+   <div class="box">
+      .container> box1
+      <p>.container> box >paragraf3</p>
+      <p>.container> box >paragraf4</p> 
+   </div>
+   <div class="box">
+      .container> box
+       
+   </div>
+   <div>
+       .container>div
+   </div>
+   <p>paragraf5</p>
+   <p>paragraf6</p>
+    <div class="box">box4</div>
+    <div class="">box5</div>
+</body>
+</html>
