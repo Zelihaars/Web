@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>İnline CSS</title>
+    
+</head>
+<body>
+  <h1 style="color: blue; border: 1px solid blue;">
+      Web Geliştirme 
+  </h1>
+   <p style="color: orange; font-size: 20px;">
+      Lorem ipsum dolor sit amet. 
+   </p>
+   <p style="color: red; font-size: 20px; ">
+     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus, odio. Lorem ipsum dolor sit amet. 
+   </p>
+   <p style="color: aqua; font-size: 15px;">
+      Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum aspernatur quasi, est expedita accusantium itaque.
+   </p>
+    
+</body>
+</html>
