@@ -1,0 +1,37 @@
+/*
+div p = div içindeki p
+div.p = tüm div ve tüm p
+div>p = olan tüm p
+p~div = p ile aynı seviyede tüm div 
+p+div = p etiketinden sonra gelen div
+*/
+p[title]{
+    border: 1px solid gray;
+    padding: 10px;
+}
+p[title = "third paragraph"]{
+    background-color: gold;
+}
+p[title="forth paragraph"]{
+  background-color: red;
+}
+a[href^="http"]{
+    color: yellowgreen;
+}
+a[href$="com"]{
+    color: aqua;
+}
+a [href = "http://www.example.com"][target="_blank"]{
+    color: yellow;
+}
+input[type="text"]{
+ background-color: red;
+    width: 150px;
+    display: block;
+}
+input[type="button"]{
+    background: #4CAF50;
+    color: #FFFFFF;
+
+    padding: 8px 16px;
+}
