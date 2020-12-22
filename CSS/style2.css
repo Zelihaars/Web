@@ -1,0 +1,22 @@
+ 
+p::first-line{
+    font-weight: bold;
+    color:orangered;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+}
+p.about::first-line{
+    color: greenyellow;
+}
+::first-letter{
+    font-size: 48px;
+    
+}
+p::after{
+    content:"-deneme";
+    display: block;
+    background-color: yellow
+}
+ul li:first-child{
+    background-color: blue;
+}
